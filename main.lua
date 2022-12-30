@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Script Dump v1.2.2", "GrapeTheme")
+local Window = Library.CreateLib("Script Dump v1.2.4", "GrapeTheme")
 
 -- main
 local Main = Window:NewTab("ESP")
@@ -32,6 +32,16 @@ end)
 GUISSection:NewButton("Pluto", "Dahood GUI", function()
 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+end)
+
+GUISSection:NewButton("Arsenal", "OP Arsenal GUI", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/Arsenal",true))()
+end)
+
+GUISSection:NewButton("The Wild West", "OP Wild West GUI", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/WildWestLean"))()
 end)
 
  --LOCAL PLAYER
