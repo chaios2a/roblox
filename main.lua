@@ -23,6 +23,20 @@ GUISSection:NewButton("CheatX", "Universal GUI", function()
 
     loadstring(game:HttpGet('https://garfieldscripts.xyz/cheatx/scripts/main.lua'))()
 end)
+
+GUISSection:NewButton("Zesty ESP", "Universal GUI", function()
+
+    loadstring(game:HttpGet("https://fluxteam.net/scripts/NewESP.lua", true))()
+end)
+
+--Da Hood
+local Dahood = Window:NewTab("Da Hood")
+local DahoodSection = DaHood:NewSection("Da Hood") 
+
+DahoodSection:NewButton("Pluto", "Dahood GUI", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+end)
  --LOCAL PLAYER
  local Player = Window:NewTab("Speed/Jump")
  local PlayerSection = Player:NewSection("Player")
