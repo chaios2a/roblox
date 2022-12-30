@@ -29,14 +29,6 @@ GUISSection:NewButton("Zesty ESP", "Universal GUI", function()
     loadstring(game:HttpGet("https://fluxteam.net/scripts/NewESP.lua", true))()
 end)
 
---Da Hood
-local Dahood = Window:NewTab("Da Hood")
-local DahoodSection = DaHood:NewSection("Da Hood") 
-
-DahoodSection:NewButton("Pluto", "Dahood GUI", function()
-
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
-end)
  --LOCAL PLAYER
  local Player = Window:NewTab("Speed/Jump")
  local PlayerSection = Player:NewSection("Player")
@@ -67,7 +59,3 @@ end)
  
          Fly(true)
      end)
-
-     Section:NewTextBox("TextboxText", "TextboxInfo", function(txt)
-        print(High)
-    end)
