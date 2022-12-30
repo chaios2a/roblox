@@ -95,9 +95,9 @@ end)
      end)
 
 --DaHood
-local DH = Window:NewTab("DH")
-local DHSection = Tab:NewSection("DH")
+ local DH = Window:NewTab("DH")
+ local DHSection = Tab:NewSection("DH")
 
- DHSection:NewButton("SpaceX", "SpaceX DH", function()
+ DHSection:NewButton("Reset WS/JP", "Resets to all defaults", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
  end)
