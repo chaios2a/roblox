@@ -29,7 +29,7 @@ GUISSection:NewButton("Zesty ESP", "Universal GUI", function()
     loadstring(game:HttpGet("https://fluxteam.net/scripts/NewESP.lua", true))()
 end)
 
-GUISSection:NewButton("Pluto", "Dahood GUI", function()
+GUISSection:NewButton("Da Hood", "Dahood GUI", function()
 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
 end)
@@ -42,6 +42,20 @@ end)
 GUISSection:NewButton("The Wild West", "OP Wild West GUI", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/WildWestLean"))()
+end)
+
+GUISSection:NewButton("Funky Friday", "Autoplayer Funky Friday", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+end)
+
+GUISSection:NewButton("SCP-RP", "SCP-RP Script", function()
+
+loadstring(game:HttpGet("https://anomaly.cool/scripts/scp-rp.lua"))()
+end)
+GUISSection:NewButton("Pls Donate", "Pls Donate Script", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tzechco/roblox-scripts/main/PLS%20DONATE/autofarm.lua'))()
 end)
 
  --LOCAL PLAYER
