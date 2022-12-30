@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Script Dump v1.0", "Synapse")
+local Window = Library.CreateLib("Script Dump v1.2.2", "GrapeTheme")
 
 -- main
 local Main = Window:NewTab("ESP")
@@ -29,6 +29,11 @@ GUISSection:NewButton("Zesty ESP", "Universal GUI", function()
     loadstring(game:HttpGet("https://fluxteam.net/scripts/NewESP.lua", true))()
 end)
 
+GUISSection:NewButton("Pluto", "Dahood GUI", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+end)
+
  --LOCAL PLAYER
  local Player = Window:NewTab("Speed/Jump")
  local PlayerSection = Player:NewSection("Player")
@@ -54,7 +59,7 @@ end)
          loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
      end)
  
-     OtherSection:NewButton("Bypassed Fly", "bird mode", function()
+     OtherSection:NewButton("Bypassed Fly", "Doesn't Work", function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
  
          Fly(true)
