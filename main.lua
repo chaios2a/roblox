@@ -95,8 +95,8 @@ end)
      end)
 
 --DaHood
-local Main = Window:NewTab("ESP")
-local MainSection = Main:NewSection("ESP")
+local Main = Window:NewTab("DaHood")
+local MainSection = Main:NewSection("Dahood")
 
 MainSection:NewButton("SpaceX", "SpaceX DaHood Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
